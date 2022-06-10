@@ -23,7 +23,8 @@ public class Artigo {
     @Column (name = "titulo_artigo")
     String titulo;
 
-    @ManyToMany(mappedBy = "table_artigo")
+
+    @ManyToMany(mappedBy = "table_artigos")
     List<Autor> autores = new ArrayList<>();
 
     @Column (name = "arquivo_artigo")

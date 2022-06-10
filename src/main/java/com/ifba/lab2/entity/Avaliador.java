@@ -15,8 +15,8 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Entity(name="table_artigo")
-@Table(name="table_artigo")
+@Entity(name="table_avaliador")
+@Table(name="table_avaliador")
 
 public class Avaliador {
     @Id

@@ -31,8 +31,9 @@ public class Autor {
     @Column(name = ("endereco_autor"))
     private String endereco;
 
-    @ManyToMany
-    @JoinTable(name = "trabalhos_pessoas")
+
+
+    @ManyToMany(mappedBy = "table_autores")
      List<Artigo> artigos =new ArrayList<>();
 
 }
